@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*<!--顶部导航开始-->*/
+.header-box{
+    width: 100%;
+    height: 79px;
+    background: #fff;
+    margin-bottom: 0;
+    box-shadow: none;
+    z-index: 1;
+    position: fixed;
+    border-bottom: 0.5px solid #bababa;
+}
+.container{
+    width: 1170px;
+    height: 100%;
+    /*   ;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.nav{
+    width: 602px;
+    height: 100%;
+    /*background: #e23d1e;*/
+    float: right;
+    margin-right: -15px;
+    display: block;
+}
+.nav-w{
+    width: 86px;
+    height: 100%;
+    float: left;
+    font-size: 14px;
+}
+.nav-w1{
+    color: #16b0dc;
+    margin-top: 0;
+    padding-bottom: 0;
+    height: 79px;
+    line-height: 79px;
+    text-decoration: none;
+}
+.nav-w2{
+    color: #000000 ;
+    margin-top: 0;
+    padding-bottom: 0;
+    height: 79px;
+    line-height: 79px;
+    text-decoration: none;
+}
+.nav-w2:hover{
+    color: #16b0dc;
+}
+/*<!--顶部导航结束-->*/
+/*图片开始*/
+.tu-box{
+    width: 100%;
+    height: 1089px;
+    /*background: #83c44e;*/
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/*图片结束*/
+.tu-1{
+    width: 674.5px;
+    height: 532.5px;
+    background: black;
+    margin-top: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.tu-2{
+    width: 674.5px;
+    height: 532.5px;
+    background: black;
+    position: relative;
+    margin-top: -30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.tu-1 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.tu-1:hover img{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.tu-2 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.tu-2:hover img{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.vertical{
+    width: 120px;
+    height: 137px;
+    /*background: #2052f1;*/
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -300px;
+}
+.vertical-1{
+    color: #ffffff;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 14px;;
+}
+.ver-2{
+    width: 25px;
+    height: 2px;
+    background: #F1F1F1;
+    opacity: 0.6;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    color: #fff;
+    opacity: 0.6;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.button{
+    width: 60px;
+    height: 30px;
+    border: 1px solid#fff;
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    color: #fff;
+    padding: 3px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    opacity: 0.6;
+}
+.button:hover{
+    color:#656a6b;
+    background: #fff;
+}
+/*结尾开始*/
+.footer-box{
+    width: 100%;
+    height: 190px;
+    background: #f5f5f5;
+    color: #aaaaaa;
+    line-height: 1.8;
+    margin-top: 25px;
+}
+.lim{
+    width: 100%;
+    height: 20px;
+    /*background: #ffac13;*/
+    padding: 10px 0;
+}
+.biao{
+    width: 100%;
+    height: 56px;
+    text-align: center;
+}
+.weixin{
+    font-size: 26px;
+    width: 30px;
+    height: 19px;
+    color: #83b944;
+    margin: 0 8px;
+}
+.weixin i{
+    width: 30px;
+    height: 46px;
+    font-size: 30px;
+    margin: 0 -5px;
+}
+.qq i{
+    font-size: 25px;
+    margin: 0 5px;
+    width: 26px;
+    height: 46px;
+    cursor: pointer;
+    color: #62a8ea;
+}
+.xin i{
+    font-size: 28px;
+    margin: 0 5px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    color: #62a8ea;
+}
+.pop{
+    margin: 0 0 11px;
+    text-align: center;
+    font-size: 14px;
+}
+.pop a{
+    color: #62a8ea;
+    margin-right: 10px;
+}
+.pop a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}
+.pop img{
+    height: 20px;
+    width: 20px;
+    border: 0;
+}
+.dao2{
+    margin: 0 0 11px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.dao1{
+    margin-top: -40px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+/*结尾结束*/

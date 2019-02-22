@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*<!--花卉顶部导航开始-->*/
+.header-box{
+    width: 100%;
+    height: 79px;
+    background: rgba(0,0,0,0.25);
+    min-height: 79px;
+    border-radius: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    z-index: 999;
+    position: fixed;
+}
+.container{
+    width: 1170px;
+    height: 100%;
+    /*   ;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    display: block;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+    float: left;
+    display: block;
+}
+.logo a{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.logo img{
+    max-height: 50px;
+    vertical-align: middle;
+    border: 0;
+    margin-bottom: 14.5px;
+    margin-top: 14.5px;
+}
+.nav{
+    width: 602px;
+    height: 100%;
+    /*background: #e23d1e;*/
+    float: right;
+    margin-right: -15px;
+    display: block;
+}
+.nav-w{
+    width: 86px;
+    height: 100%;
+    float: left;
+    font-size: 14px;
+}
+.nav-w1{
+    color: #16b0dc;
+    margin-top: 0;
+    padding-bottom: 0;
+    height: 79px;
+    line-height: 79px;
+    text-decoration: none;
+}
+.nav-w2{
+    color: #fff;
+    margin-top: 0;
+    padding-bottom: 0;
+    height: 79px;
+    line-height: 79px;
+    text-decoration: none;
+}
+.nav-w2:hover{
+    color: #16b0dc;
+}
+/*<!--花卉顶部导航结束-->*/
+/*图片开始*/
+img{
+    width: 100%;
+    height: 321px;
+}
+/*图片结束*/
+/*素心工作室开始*/
+.work-box{
+    width: 100%;
+    height: 880px;
+    background: #fff;
+    padding: 70px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.work{
+    width: 1170px;
+    height: 765px;
+    /*background: #83c44e;*/
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.work h3{
+    font-size: 36px;
+    margin-top: 0;
+    text-align: center;
+    font-weight:300;
+    text-shadow: rgba(0,0,0,.15) 0 0 1px;
+    margin-bottom: 11px;
+    line-height: 1.2;
+    color: #37474f;
+}
+.ed{
+    width: 1140px;
+    height: 672px;
+    background: #ffffffff;
+    margin-top: 10px;
+    padding: 30px;
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 300;
+    color: #222;
+}
+.editor{
+    width: 1080px;
+    height: 612px;
+    /*   background: #16b0dc;*/
+}
+.nei1{
+    text-align: center;
+    margin-bottom: 16px;
+    display: block;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.pa{
+    display: block;
+    margin-top: 25px;
+    padding: 0;
+    white-space: normal;
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.pm{
+    display: block;
+    margin-top: -10px;
+    padding: 0;
+    white-space: normal;
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.di{
+    width: 1080px;
+    height: 340px;
+    /*background: #ff6709;*/
+    margin-top: 45px;
+}
+.di img{
+    width: 530px;
+    height: 340px;
+    margin-left: 300px;
+}
+/*素心工作室结束*/
+/*结尾开始*/
+.footer-box{
+    width: 100%;
+    height: 190px;
+    background: #f5f5f5;
+    padding-bottom: 20px;
+    color: #aaaaaa;
+    line-height: 1.8;
+    margin-top: 100px;
+}
+.lim{
+    width: 100%;
+    height: 20px;
+    /*background: #ffac13;*/
+    padding: 10px 0;
+
+}
+.biao{
+    width: 100%;
+    height: 56px;
+    margin-top: 10px;
+    padding: 5px 0;
+    text-align: center;
+}
+.weixin{
+    font-size: 26px;
+    width: 30px;
+    height: 19px;
+    color: #83b944;
+    margin: 0 8px;
+}
+.weixin i{
+    width: 30px;
+    height: 46px;
+    font-size: 30px;
+    margin: 0 -5px;
+}
+.qq i{
+    font-size: 25px;
+    margin: 0 5px;
+    width: 26px;
+    height: 46px;
+    cursor: pointer;
+    color: #62a8ea;
+}
+.xin i{
+    font-size: 28px;
+    margin: 0 5px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    color: #62a8ea;
+}
+.pop{
+    margin: 0 0 11px;
+    text-align: center;
+}
+.pop a{
+    color: #62a8ea;
+    margin-right: 10px;
+}
+.pop a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+}
+.pop img{
+    width: 20px;
+    height: 20px;
+    border: 0;
+}
+.dao2{
+    margin: 0 0 11px;
+    display: block;
+    text-align: center;
+}
+.dao1{
+    margin-top: -40px;
+    display: block;
+    text-align: center;
+}
+/*结尾结束*/
